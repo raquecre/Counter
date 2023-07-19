@@ -1,11 +1,14 @@
-const Sum = (props) => {
-    const { counter, setCounter } = props
 
-    const sumCounter = () => setCounter(counter + 1)
+
+
+const Sum = (props) => {
+    const { counter, newCounter } = props
+
+    const sumCounter = () => newCounter(+counter + 1)
 
 
     return (
-        <button onClick={() => sumCounter()}>
+        <button onClick={sumCounter}>
             +
         </button>
     )
