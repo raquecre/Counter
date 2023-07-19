@@ -8,7 +8,7 @@ const Sum = (props) => {
 
 
     return (
-        <button onClick={sumCounter}>
+        <button className="btn bg-success display-3 font-weight-bold " onClick={sumCounter}>
             +
         </button>
     )

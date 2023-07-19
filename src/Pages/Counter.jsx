@@ -7,7 +7,7 @@ const Counter = () => {
 
 
     return (
-        <div className="counter">
+        <div className="counter m-5 p-3 border rounded w-50 border-primary">
             <h1>Contador</h1>
             <div className="counterItems">
                 <Rest count={count} newCounter={() => setCount((state) => state > 0 ? state -1 : state )} />

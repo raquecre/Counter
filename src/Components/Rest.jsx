@@ -6,7 +6,7 @@ const Rest = (props) => {
     const restCounter = () => newCounter(counter < 1 ? +counter -1 : counter );
 
     return(
-        <button onClick={() => restCounter()}>
+        <button className="btn bg-danger display-3 font-weight-bold " onClick={() => restCounter()}>
                 -
         </button>
     )
